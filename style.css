@@ -1,0 +1,54 @@
+body {
+    background-color: #BADEF1;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    grid-template-columns: 1fr 3fr 1fr;
+    display: grid;
+}
+.new-task {
+    text-align: center;
+}
+.task {
+    background-color: white;
+}
+input {
+    color: rgb(65, 65, 65);
+    outline: none;
+    padding: 35px 35px 10px 10px;
+    font-size: 1.2em;
+    background-color: #BADEF1;
+    border: none;
+    border-bottom: 2px solid #A7C7D9;
+    width: 80%;
+}
+.center {
+    display: grid;
+    text-align: left;
+    font-size: 20px;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5em;
+    padding-top: 1em;
+}
+.center > * {
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.task {
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr;
+    align-items: center;
+}
+.task-right {
+    text-align: right; 
+}
+.task-note {
+    font-style: italic;
+    color: #5a5858;
+    padding-top: 10px;
+    font-size: 17px;
+}
+i {
+    text-align: right;
+}
